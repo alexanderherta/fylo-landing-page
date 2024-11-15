@@ -47,8 +47,9 @@ nav {
 }
 
 .page-top-img {
-  height: 350px;
+  height: 450px;
   width: fit-content;
+  margin-top: 25px;
 }
 
 .page-top-div {
@@ -150,4 +151,43 @@ nav {
 
 .stay-productive {
   background-color: hsl(218, 28%, 13%);
+  display: flex;
+  align-items: center;
+  padding: 45px 75px;
+  gap: 50px;
+}
+
+.stay-productive-div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.stay-productive-img {
+  height: 300px;
+}
+
+.stay-productive-heading {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.stay-productive-text {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.stay-productive-link {
+  color: hsl(176, 69%, 47%);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.stay-productive-link:hover {
+  color: white;
+}
+
+.stay-productive-link:hover use {
+  fill: white;
 }
