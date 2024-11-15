@@ -43,6 +43,7 @@ nav {
   font-weight: bold;
   transition: 0.3s;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .page-top-img {
@@ -56,6 +57,16 @@ nav {
   gap: 20px;
   flex-direction: column;
   align-items: center;
+}
+
+.curve-background-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-image: url("./images/bg-curvy-desktop.svg");
+  background-size: cover;
+  padding-bottom: 50px;
 }
 
 .page-top-header {
@@ -78,6 +89,7 @@ nav {
   padding: 10px 75px;
   border-radius: 25px;
   width: fit-content;
+  margin-bottom: 150px;
 }
 
 .page-top-button:hover {
