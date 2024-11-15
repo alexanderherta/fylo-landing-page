@@ -129,6 +129,12 @@ nav {
   height: fit-content;
   width: fit-content;
   margin-bottom: 20px;
+  height: 70px;
+  width: 85px;
+}
+
+#security-icon {
+  width: 65px;
 }
 
 .details-heading {
@@ -140,4 +146,8 @@ nav {
 .details-text {
   color: rgba(255, 255, 255, 0.85);
   font-size: 14px;
+}
+
+.stay-productive {
+  background-color: hsl(218, 28%, 13%);
 }
