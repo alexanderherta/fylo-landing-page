@@ -98,8 +98,46 @@ nav {
   background-color: hsl(176, 81%, 60%);
 }
 
-/* body {
-  background-image: url("./images/bg-curvy-desktop.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
+.details {
+  background-color: hsl(218, 28%, 13%);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 0 150px;
+}
+
+.details-a {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-b {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-div {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.details-icons {
+  height: fit-content;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+.details-heading {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.details-text {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+}
