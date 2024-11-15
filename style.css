@@ -9,6 +9,7 @@
   font-family: "Poppins", serif;
   font-weight: 400;
   font-style: normal;
+  border: none;
 }
 
 .page-top {
@@ -16,7 +17,6 @@
 }
 
 nav {
-  background-color: red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +29,6 @@ nav {
 }
 
 .top-links {
-  background-color: purple;
   display: flex;
   gap: 50px;
 }
@@ -48,6 +47,43 @@ nav {
 
 .page-top-img {
   height: 350px;
+  width: fit-content;
+}
+
+.page-top-div {
+  color: white;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-top-header {
+  font-size: 32px;
+  width: 60%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.page-top-text {
+  font-size: 16px;
+  width: 50%;
+  text-align: center;
+}
+
+.page-top-button {
+  background-color: hsl(176, 69%, 47%);
+  color: white;
+  font-weight: bold;
+  padding: 10px 75px;
+  border-radius: 25px;
+  width: fit-content;
+}
+
+.page-top-button:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: hsl(176, 81%, 60%);
 }
 
 /* body {
