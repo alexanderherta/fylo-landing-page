@@ -191,3 +191,59 @@ nav {
 .stay-productive-link:hover use {
   fill: white;
 }
+
+.quotes {
+  background-color: hsl(218, 28%, 13%);
+  display: flex;
+  padding: 100px;
+  gap: 25px;
+  position: relative;
+  z-index: 1;
+}
+
+.quotes::before {
+  content: url("./images/bg-quotes.png");
+  position: absolute;
+  left: 90px;
+  top: 63px;
+  z-index: -1;
+}
+
+.quote {
+  background-color: hsl(218, 27%, 18%);
+  padding: 20px;
+  box-shadow: 5px 5px 3px hsl(217, 28%, 15%);
+}
+
+.quote-text {
+  font-size: 13px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.quote-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.quote-by {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quote-by div {
+  display: flex;
+  flex-direction: column;
+}
+.quote-name {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.quote-company {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.7);
+}
