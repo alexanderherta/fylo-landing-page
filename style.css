@@ -305,13 +305,13 @@ nav {
   width: fit-content;
 }
 
-.email-error {
-  color: red;
+.email-input-info {
   font-weight: bold;
   font-size: 10px;
   margin-top: -15px;
   margin-right: auto;
   margin-left: 30px;
+  height: 15px;
 }
 
 .behind-email-area {
@@ -340,6 +340,7 @@ footer {
   display: flex;
   gap: 15px;
   flex: 2;
+  margin-right: 30px;
 }
 
 .phone-and-email {

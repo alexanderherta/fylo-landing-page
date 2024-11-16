@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" defer></script>
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -109,9 +110,9 @@
       <p class="get-access-text">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
       <div class="email-area">
         <input class="email-input" type="text" placeholder="johnappleseed@mail.com">
-        <button class="email-button">Get Started For Free</button>
+        <button class="email-button" onclick="submitEmail()">Get Started For Free</button>
       </div>
-      <p class="email-error">Please enter a valid email address</p>
+      <p class="email-input-info"></p>
     </div>
   </div>
 
