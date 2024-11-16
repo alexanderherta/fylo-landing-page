@@ -251,7 +251,6 @@ nav {
 
 .get-access-area {
   background-color: hsl(218, 28%, 13%);
-  /* background-color: red; */
   height: 300px;
   display: flex;
   align-items: center;
@@ -313,4 +312,16 @@ nav {
   margin-top: -15px;
   margin-right: auto;
   margin-left: 30px;
+}
+
+.behind-email-area {
+  background-color: hsl(216, 53%, 9%);
+  height: 150px;
+  margin-top: -150px;
+}
+
+footer {
+  background-color: hsl(216, 53%, 9%);
+  height: 200px;
+  color: white;
 }
